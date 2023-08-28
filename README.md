@@ -14,3 +14,5 @@ NOTE: to run the script `jq` is needed; to install it (in Ubuntu) run the follow
 ```
 sudo apt-get install jq
 ```
+
+For other distros take a look at [this](https://jqlang.github.io/jq/download/) website.
