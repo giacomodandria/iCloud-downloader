@@ -16,3 +16,21 @@ sudo apt-get install jq
 ```
 
 For other distros take a look at [this](https://jqlang.github.io/jq/download/) website.
+
+# Copying photos from WSL to Windows
+
+In order to move the downloaded photos in the Linux VM on Windows we can open a new File Explorer window and type in the address bar
+
+```
+\\wsl$\<WSL Distro>
+```
+
+where `<WSL Distro>` is the Linux distribution used in WSL. For example, if WSL is running Ubuntu, the previous command is
+
+```
+\\wsl$\Ubuntu
+```
+
+We can now access the files inside the VM by navigating to `Home` -> `<User>` -> `<target folder>`.
+
+The files can now be copied from that folder to the desired one.
